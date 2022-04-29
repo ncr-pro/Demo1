@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-04-27T18:23:55 IST" name="Suite" finished-at="2022-04-27T18:24:29 IST" duration-ms="34543">
+    <groups>
+    </groups>
+    <test started-at="2022-04-27T18:23:55 IST" name="Test" finished-at="2022-04-27T18:24:29 IST" duration-ms="34543">
+      <class name="demo.framework.test.ThreeTest">
+        <test-method signature="threeTest()[pri:0, instance:demo.framework.test.ThreeTest@291ae]" started-at="2022-04-27T18:23:55 IST" name="threeTest" finished-at="2022-04-27T18:23:55 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- threeTest -->
+      </class> <!-- demo.framework.test.ThreeTest -->
+      <class name="demo.framework.test.TwoTest">
+        <test-method signature="testtwo()[pri:0, instance:demo.framework.test.TwoTest@41fbdac4]" started-at="2022-04-27T18:23:55 IST" name="testtwo" finished-at="2022-04-27T18:23:55 IST" duration-ms="11" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testtwo -->
+      </class> <!-- demo.framework.test.TwoTest -->
+      <class name="demo.framework.test.FourTest">
+        <test-method signature="fourtest()[pri:0, instance:demo.framework.test.FourTest@243c4f91]" started-at="2022-04-27T18:23:55 IST" name="fourtest" finished-at="2022-04-27T18:23:55 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- fourtest -->
+      </class> <!-- demo.framework.test.FourTest -->
+      <class name="demo.framework.test.LogicTest">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:demo.framework.test.LogicTest@2f7298b]" started-at="2022-04-27T18:23:55 IST" name="openApplication" finished-at="2022-04-27T18:24:07 IST" duration-ms="11855" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:demo.framework.test.LogicTest@2f7298b]" started-at="2022-04-27T18:24:07 IST" name="login" data-provider="getLoginData" finished-at="2022-04-27T18:24:08 IST" duration-ms="1445" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[arun.selenium@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Second@123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[successfull]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:demo.framework.test.LogicTest@2f7298b]" started-at="2022-04-27T18:24:08 IST" name="closure" finished-at="2022-04-27T18:24:09 IST" duration-ms="178" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:demo.framework.test.LogicTest@2f7298b]" started-at="2022-04-27T18:24:09 IST" name="openApplication" finished-at="2022-04-27T18:24:18 IST" duration-ms="9570" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:demo.framework.test.LogicTest@2f7298b]" started-at="2022-04-27T18:24:18 IST" name="login" data-provider="getLoginData" finished-at="2022-04-27T18:24:29 IST" duration-ms="11220" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[dummy@test.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[dummy]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Failure]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="closure()[pri:0, instance:demo.framework.test.LogicTest@2f7298b]" started-at="2022-04-27T18:24:29 IST" name="closure" finished-at="2022-04-27T18:24:29 IST" duration-ms="163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closure -->
+      </class> <!-- demo.framework.test.LogicTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
